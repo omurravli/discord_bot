@@ -139,10 +139,6 @@ async def whatsup(ctx):
     await ctx.send("I am good, whatsupp to you?")
 
 @client.command()
-async def abariii(ctx):
-    await ctx.send("ABARİİİİİİİ")
-
-@client.command()
 async def joke(ctx):
     joke_t = random.choice(jokes)
     await ctx.send(joke_t)
